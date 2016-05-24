@@ -1,0 +1,51 @@
+
+.terminal {
+	margin:0 50px 0 100px ; 
+	padding: 25px ; 
+	font-family : "Liberation Mono", "lucida console", "verdana"; 
+	color:white; 
+	background-color:black ;
+}
+
+.textfile {
+	margin:0 50px 0 100px ; 
+	padding: 25px ; 
+	border:1px solid black ; 
+	font-family : "Liberation Mono", "lucida console", "verdana"; 
+	color:black; 
+	background-color:white ;
+	box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.screenoutput {
+	margin:0 100px 0 100px;
+	padding:15px;
+	border-radius: 5px;
+	font-family:"arial";
+	background-color:#EEE;
+	border:1px solid black;
+}
+
+.exemple {
+	font-family: "Comic Sans ms";
+	border:1px solid black;
+	margin-left:25px;
+	padding:15px;
+}
+
+.note {
+	width:50%;
+	float:right;
+	border:1px solid black ;
+	padding:5px ;
+	margin : 5px ;
+	}
+
+#preview h1, #article_text h1 {font-size:2em}
+#preview h2, #article_text h2 {font-size:1.75em}
+#preview h3, #article_text h3 {font-size:1.6em}
+#preview h4, #article_text h4 {font-size:1.5em}
+#preview h5, #article_text h5 {font-size:1.2em}
+#preview h6, #article_text h6 {font-size:1em}
+
+

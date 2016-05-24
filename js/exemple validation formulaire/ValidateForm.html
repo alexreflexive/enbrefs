@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validation formulaire JS JS</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="functionValidateForm.js"></script>
+        <style>
+            input[type=text] {
+                background-color: #FFF;
+                border: 1px solid black;
+            }
+            input.required {
+                background-color: #DDF;
+            }
+            input.error {
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <form onsubmit="return validate_form()">
+            <div><label for="field01">Champ 01 :</label> <input class="required" type="text" name="field01" /></div>
+            <div><label for="field01">Champ 02 :</label> <input class="required" type="text" name="field02" /></div>
+            <div><label for="field01">Champ 03 :</label> <input type="text" name="field03" /></div>
+            <div><input type="submit" value="Envoyer" /></div>
+        </form>
+    </body>
+</html>
+

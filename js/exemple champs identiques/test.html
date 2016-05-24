@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+<form action='http://alexgyg.alx'>
+<label>Mot de passe : <input type="password" id="password1" oninput="checkPasswords()"></label>
+<label>Confirmer mot de passe : <input type="password" id="password2" oninput="checkPasswords()"></label>
+<input type='submit'>
+</form>
+<script>
+function checkPasswords() {
+  var password1 = document.getElementById('password1');
+  var password2 = document.getElementById('password2');
+  if (password1.value != password2.value) {
+    password2.setCustomValidity('Les mots de passe ne sont pas identiques');
+  } else {
+    password2.setCustomValidity('');
+  }
+}
+</script>
+</body>
+</html>
