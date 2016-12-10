@@ -22,10 +22,10 @@ $config['meta_title'] = "EnBrefs numériques" ;
 $config['body_title'] = "EnBrefs <p class='right-align'>numériques</p>" ; 
 
 $config['db']['type'] = 'mysql'; // on pourrait avoir 'sqlite', 'postgre'â€¦
-$config['db']['host'] = 'enbrefsfuu.mysql.db';
-$config['db']['base'] = 'enbrefsfuu';
-$config['db']['user'] = 'enbrefsfuu';
-$config['db']['password'] = 'v4UB5Pu64K8t';
+$config['db']['host'] = 'xxx.xxx.xxxxxx';
+$config['db']['base'] = 'xxxxxx';
+$config['db']['user'] = 'xxxxxxxxx';
+$config['db']['password'] = 'xxxxxxxxx';
 $config['db']['prefix'] = 'enb_'; 
 $config['db']['salt'] = 'b4eb5bd81702d0f741231508d2838fd0'; 
 
