@@ -1,1 +1,3 @@
 EnBrefs dispose de deux membres inscrits par défaut : initiative avec des droits d'administration, et Rédacteur, avec des droits de rédacteur. Par défaut, le mot de passe est 0000, donc, s'il vous plaît, si l'apprlication est mise en ligne, changez les mots de passe.
+
+Pour utiliser le site, cela ne devrait pas être très compliqué. Une fois cloné et/ou dézippé le dossier, il faut créer une base de données 'enbrefs' (ou tout autre mais alors penser à modifier config.php en conséquence), importer le fichier enbrefs.sql et normalement, c'est parti.
